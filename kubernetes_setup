@@ -1,8 +1,8 @@
-sudo hostnamectl set-hostname "manager_machine"
+sudo hostnamectl set-hostname "managermachine"
 
-sudo hostnamectl set-hostname "worker_machine_one"
+sudo hostnamectl set-hostname "workermachineone"
 
-sudo hostnamectl set-hostname "worker_machine_two"
+sudo hostnamectl set-hostname "workermachinetwo"
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
 
